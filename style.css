@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainNavbar {
+    background-color: #F72210;
+    color: white;
+    height: 15vh;
+}
+
+.btn {
+    color: #F72210;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: calc(50% - 200px);
+    top:5px
+}
+
+#mainNavbar a.nav-link {
+    color: white; 
+}
+
+#secondNavbar::before {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background-color: #f72210;
+    border-left:12px solid#fff;
+    border-top:13px solid#f72210;
+  }
+
+#secondNavbar {
+   background-color: white;  
+}
+
+#secondNavbar a.nav-link {
+    color: rgb(12, 11, 11); 
+}
+
+#search-input {
+    width: 100px;
+}
+
+i.fa-search {
+    position: absolute;
+    right: 3rem;
+    top: 1.1rem;
+}
+
+@media (max-width: 992px) {
+    #mainNavbar {
+        background-color: #F72210;
+        color: white;
+        height:10vh;
+        
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: 2%;
+        top:5px;
+    }  
+
+    .navbar-brand img {
+        height: 5vh;
+    }
+
+}
