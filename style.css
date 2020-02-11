@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #mainNavbar {
@@ -49,6 +49,34 @@ i.fa-search {
     position: absolute;
     right: 3rem;
     top: 1.1rem;
+}
+
+#firstArticle a {
+    line-height: 24px;
+    font-size: 20px;
+    color: black;
+}
+
+#firstArticle p {
+    line-height: 24px;
+    font-size: 15px;
+    color: black;
+}
+
+/* #secondImage {
+    max-height: 60vh; 
+    max-width: 100%;
+} */
+
+#thirdSection a {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+#thirdSection p {
+    font-size: 14px;
+    line-height: 21px;
 }
 
 @media (max-width: 992px) {
