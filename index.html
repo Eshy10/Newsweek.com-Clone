@@ -14,7 +14,8 @@
      <script src="https://kit.fontawesome.com/f02bbd63cf.js" crossorigin="anonymous"></script>
      <!-- Google fonts -->
      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <title>Newsweek.com</title>
+     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+     <title>Newsweek.com</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -73,39 +74,83 @@
     </header >
     <section id="firstArticle">
      <div class="row mt-4">
-     <div class="col-lg-3 pl-4">
+     <div id="firstSection" class="col-lg-3 pl-4 h-100">
       <h2 class="text-muted">FEATURED STORIES</h2>
       <div class="mt-1">
+        <a href="#">
           <img class="img-fluid" src="./images/china.webp" alt="china">
-          <a href="#" class="btn">U.S.</a> <br>
+          <span class="img-info px-3 py-1 font-weight-bold">U.S.</span>
+        </a>
+          <div>
           <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
           <p class="mt-1">In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-      </div>
-      <div class="mt-4">
+        </div>
+        </div>
+      <div class="mt-3">
+        <a href="#">
         <img class="img-fluid" src="./images/pete.webp" alt="man">
-        <a href="#" class="btn">POLITICS</a> <br>
+        <span class="img-info px-3 py-1 font-weight-bold">POLITICS</span>
+      </a>
+      <div>
         <a href="#" class="font-weight-bold">Pete Buttigieg Closes Gap on Bernie Sanders in New Hampshire: Poll</a>
         <p>The final 7 News/Emerson College poll shows Sanders ahead with 30 percent support and Buttigieg on 23 percent.</p>
     </div>
-    <div class="mt-4">
+      </div>
+    <div class="mt-3">
+      <a href="#">
         <img class="img-fluid" src="./images/politics.webp" alt="phone">
-        <a href="#" class="btn">POLITICS</a> <br>
+        <span class="img-info px-3 py-1 font-weight-bold">POLITICS</span>
+      </a>
+      <div>
         <a href="#" class="font-weight-bold">Election Security Institute Criticizes Newly Unveiled Nevada Caucus App</a>
         <p>"Please prove us wrong," read the final tweet in the thread from OSET.</p>
-    </div>
-    <div class="mt-4">
+      </div>
+      </div>
+    <div class="mt-3">
+      <a href="#">
         <img class="img-fluid" src="./images/bag.webp" alt="bag">
-        <a href="#" class="btn">U.S.</a> <br>
+        <span class="img-info px-3 py-1 font-weight-bold">U.S.</span>
+      </a>
+      <div>
         <a href="#" class="font-weight-bold">Growth Can Be Green. Here's How</a>
         <p>The apparently ironclad trade-off between human prosperity and the state of nature has been eased.</p>
     </div>
-    <div class="mt-4">
+      </div>
+    <div class="mt-3">
+      <a href="#">
         <img class="img-fluid" src="./images/china.webp" alt="china">
-        <a href="#" class="btn">WORLD</a> <br>
+        <span class="img-info px-3 py-1 font-weight-bold">WORLD</span>
+      </a>
+      <div>
         <a href="#" class="font-weight-bold">Growth Can Be Green. Here's How</a>
         <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
-    <div class="mt-4">
+      </div>
+      </div>
+      <div class="card mt-4" style="width: 19rem;">
+        <img class="card-img-top" src="https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.jpg?w=343&h=229&f=9001796ad87af5440a19c713ba2fc017" alt="Card image cap">
+        <span class="image-info px-3 py-1 font-weight-bold">SPONSORED INSIGHT</span>
+        <div class="card-body pt-0">
+         <a href="#" class="card-link font-weight-bold">Female Entrepreneur Active in Tokyo and Uganda</a>
+        <p class="card-text pt-1">APT Women aims to foster and educate fledgling global business leaders like Chizu Nakamoto.</p>
+        </div>
+      </div>
+      <div class="card mt-4" style="width: 19rem;">
+        <img class="card-img-top" src="https://d.newsweek.com/en/full/1551968/university-texas-el-paso.jpg?w=343&h=229&f=27929f494a86f92777e982d66aa045fe" alt="Card image cap">
+        <span class="image-info px-3 py-1 font-weight-bold">SPONSORED INSIGHT</span>
+        <div class="card-body">
+         <a href="#" class="card-link font-weight-bold">Nurses - The Real Medical Heroes of 2020</a>
+        <p class="card-text pt-1">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+        </div>
+      </div>
+    <!-- <div class="mt-4">
+      <a href="#">
+        <img class="img-fluid" src="./images/china.webp" alt="china">
+      </a>
+        <a href="#" class="btn">U.S.</a> <br>
+        <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
+        <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
+    </div> -->
+    <!-- <div class="mt-4">
         <img class="img-fluid" src="./images/china.webp" alt="china">
         <a href="#" class="btn">U.S.</a> <br>
         <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
@@ -116,87 +161,153 @@
         <a href="#" class="btn">U.S.</a> <br>
         <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
         <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
-    <div class="mt-4">
-        <img class="img-fluid" src="./images/china.webp" alt="china">
-        <a href="#" class="btn">U.S.</a> <br>
-        <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
-        <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
-    <div class="mt-4">
-        <img class="img-fluid" src="./images/china.webp" alt="china">
-        <a href="#" class="btn">U.S.</a> <br>
-        <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
-        <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
-    <div class="mt-4">
-        <img class="img-fluid" src="./images/china.webp" alt="china">
-        <a href="#" class="btn">U.S.</a> <br>
-        <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
-        <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
+    </div> -->
      </div>
-     <div class="col-lg-5">
+     <div class="col-lg-5 h-100">
     <h2 class="text-muted">TOP STORY</h2>
     <div class="mt-1">
+      <a href="#">
         <img id="secondImage" class="img-fluid" src="./images/officials.webp" alt="china">
-        <a href="#" class="btn">U.S.</a> <br>
-        <a href="#" class="font-weight-bold">China Sees Deadliest Day for Coronavirus With Additional 97 Deaths</a>
-        <p>In the three weeks since the World Health Organization reported the first deaths, the death toll has risen to 910 people.</p>
-    </div>
-      <div class="col-lg-12">
-          <p>Latest News</p>
-          <div class="row">
-            <!-- <h2>CULTURE & TRAVEL</h2> -->
+        <span class="img-info px-3 py-1 font-weight-bold">U.S.</span>
+        </a> 
+        <div>
+        <a href="#" class="font-weight-bold">Trump's Retaliation Against Impeachment Witnesses Spurs Request for Probe</a>
+        <p class="pt-2">"These attacks are part of a dangerous, growing pattern of retaliation against those who report wrongdoing only to find themselves targeted by the President and subject to his wrath and vindictiveness," 
+          a top congressional Democrat said in a letter asking federal watchdogs to investigate.</p>
+      </div>
+      </div>
+      <div id="culture" class="col-lg-12 mt-4">
+          <h2 class="font-weight-bold text-muted pt-1">CULTURE & TRAVEL</h2>
+          <div class="row pt-2">
             <div class="col-lg-6">
                <div>
                    <img src="./images/superman.webp" alt="" class="img-fluid">
-                   <a href="#">Comic Book Movies Now Earn Oscars Respect—Their Journey to Relevancy</a>
-                   <p>Comic book movies have not had much of a presence at award shows. Over time, only a handful of films have gotten a nomination, but "Joker" has gotten a record number of nominations.</p>
-                 <a href="#" class="btn btn-secondary p-0">Oscars</a>
+                   <a class="font-weight-light" href="#">Comic Book Movies Now Earn Oscars Respect—Their Journey to Relevancy</a>
+                   <p class="text-muted mt-2">Comic book movies have not had much of a presence at award shows. Over time, only a handful of films have gotten a nomination, but "Joker" has gotten a record number of nominations.</p>
+                 <a href="#" class="btn btn-secondary p-0 pr-1 pl-1 rounded-0 mt-2 border-0">Oscars</a>
                 </div> 
             </div>
             <div class="col-lg-6">
                 <div>
             <img src="./images/subway.webp" alt="" class="img-fluid">
-            <a href="#">Subway Stations That Will Stop You in Your Tracks</a>
-            <p>From space-age designs to murals, artists and architects have transformed these 10 stunning stations around the world into contemplative and artistic spaces.</p>
-            <a href="#" class="btn btn-secondary p-0">Adventure</a>
+            <a class="font-weight-light" href="#">Subway Stations That Will Stop You in Your Tracks</a>
+            <p class="text-muted mt-2">From space-age designs to murals, artists and architects have transformed these 10 stunning stations around the world into contemplative and artistic spaces.</p>
+            <a href="#" class="btn btn-secondary p-0 pr-1 pl-1 rounded-0 mt-2 border-0">Architechure</a>
         </div>
         </div>
          </div>
          <div class="row mt-3">
-            <!-- <h2>CULTURE & TRAVEL</h2> -->
             <div class="col-lg-6">
                <div>
-                   <img src="./images/superman.webp" alt="" class="img-fluid">
-                   <a href="#">Comic Book Movies Now Earn Oscars Respect—Their Journey to Relevancy</a>
-                   <p>Comic book movies have not had much of a presence at award shows. Over time, only a handful of films have gotten a nomination, but "Joker" has gotten a record number of nominations.</p>
-                 <a href="#" class="btn btn-secondary p-0">Oscars</a>
+                   <img src="./images/koffee.webp" alt="" class="img-fluid">
+                   <a class="font-weight-light" href="#">Rising Teen Star Koffee Gives Reggae a Jolt to the Mainstream</a>
+                   <p class="text-muted mt-2">Though Jamaican artists have been pigeon-holed or marginalized, they're finally taking off stateside. Meet Koffee, the first female artist to take home the Grammy for best reggae album—at 19 years old.</p>
+                 <a href="#" class="btn btn-secondary p-0 pr-1 pl-1 rounded-0 mt-2 border-0">Music</a>
                 </div> 
             </div>
             <div class="col-lg-6">
                 <div>
-            <img src="./images/subway.webp" alt="" class="img-fluid">
-            <a href="#">Subway Stations That Will Stop You in Your Tracks</a>
-            <p>From space-age designs to murals, artists and architects have transformed these 10 stunning stations around the world into contemplative and artistic spaces.</p>
-            <a href="#" class="btn btn-secondary p-0">Adventure</a>
+            <img src="./images/crocodile.webp" alt="" class="img-fluid">
+            <a class="font-weight-light" href="#">High-Stakes Holidays That Cater to Thrill Seekers</a>
+            <p class="text-muted mt-2">Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers cerebral and physical predilections for danger, risk and fantasy.</p>
+            <a href="#" class="btn btn-secondary p-0 pr-1 pl-1 rounded-0 mt-2 border-0">Travel</a>
         </div>
         </div>
          </div>
       </div>
       <div class="col-lg-12 mt-3">
-        <h2>Latest News</h2>
-          <div class="row mt-3 border-bottom">
-              <div class="col-lg-3">
+        <h2 class="text-muted font-weight-bold pt-3 pb-2 border-bottom">MORE STORIES</h2>
+          <div class="row mt-2 border-bottom">
+              <div class="col-lg-4">
                 <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
               </div>
-              <div class="col-lg-9 border-bottom">
-                <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-                <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
+              <div class="col-lg-8 pb-2">
+                <a class="font-weight-bold" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
+                <p class="mt-2">Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
               </div>
           </div>
-          <div class="row mt-3 border-bottom">
+          <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/cchina.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Coronavirus Could Be Airborne, Chinese Official Claims</a>
+              <p class="pt-2">The deadly 2019-nCoV virus has spread to over 25 countries and territories.</p> 
+            </div>
+        </div>
+        <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/congress.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Former Iowa Congressman Refers to Tom Perez as 'Pontius Pilate' Amid Caucus 'Mess'</a>
+              <p class="pt-2">Dave Nagle pinned blame for the chaotic caucus on the DNC chairman and said Iowa Democrats were "bushwhacked by a bad system."</p> 
+            </div>
+        </div>
+        <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/mitt.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">CPAC Chairman Says Mitt Romney Would Not Be Safe at Annual Meeting</a>
+              <p class="pt-2">Matt Schlapp said Sunday that the senator of Utah had "lied so continuously to conservatives" and distanced himself from President Donald Trump.</p> 
+            </div>
+        </div>
+        <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/alex.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Tulsi Gabbard Defends Trump Over Alexander Vindman Firing</a>
+              <p class="pt-2">Gabbard split with President Donald Trump on many of his foreign policy decisions but claimed the president is within his right to decide who he wants in his Cabinet.</p> 
+            </div>
+        </div>
+        <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/donald-trump.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Team Bloomberg Trolls Trump During Oscars With 'Best Fictional Wall' Award</a>
+              <p class="pt-2">Team Bloomberg handed out the "Donalds" awards as Sunday's Oscars night unfolded.</p> 
+            </div>
+        </div>
+        <div class="row mt-2 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/ship.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Around Third of Coronavirus Cases Outside China on Quarantined Cruise Ship</a>
+              <p class="pt-2">The new form of the coronavirus has killed over 910 people since it emerged in China late last year.</p> 
+            </div>
+        </div>
+        <div class="row mt-2 pb-2">
+            <div class="col-lg-4">
+              <img src="./images/soldiers.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a class="font-weight-bold" href="#">Military Identifies Special Operation Soldiers Killed in Afghanistan Combat</a>
+              <p class="pt-2">The two officers were part of a group of U.S. personnel from the 3rd Battalion, 7th Special Forces Group and members of the allied Afghan Special Operations Forces.</p> 
+            </div>
+        </div>
+        <!-- <div class="row mt-3 border-bottom pb-2">
+            <div class="col-lg-4">
+              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
+              <p class="pt-2">Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
+            </div>
+        </div>
+        <div class="row mt-3 ">
+            <div class="col-lg-4 pb-2">
+              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+            </div>
+            <div class="col-lg-8">
+              <a href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
+              <p class="pt-2">Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
+            </div>
+        </div> -->
+        <!-- <div class="row mt-3 border-bottom">
             <div class="col-lg-3">
               <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
             </div>
@@ -204,91 +315,10 @@
               <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
               <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
             </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
-        <div class="row mt-3 border-bottom">
-            <div class="col-lg-3">
-              <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
-            </div>
-            <div class="col-lg-9">
-              <a class="p-0 m-0" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
-              <p>Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
-            </div>
-        </div>
+        </div> -->
       </div>
      </div>
-     <div id="thirdSection" class="col-lg-4">
+     <div id="thirdSection" class="col-lg-4 h-100">
     <h2 class="text-muted">OPINION</h2>
     <div class="row p-2 border-bottom no-gutters">
         <div class="col-lg-2">
@@ -296,46 +326,46 @@
         </div>
         <div class="col-lg-10 pl-2 pr-5">
           <a class="font-weight-bold" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
-          <h3 class="text-muted">BY BENNY JOHNSON</h3>
+          <h3 class="text-muted font-weight-bold pt-2">BY BENNY JOHNSON</h3>
         </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
         <div class="col-lg-2">
-          <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="">
+          <img class="img-fluid img-rounded" src="./images/jennifer.webp" alt="woman">
         </div>
         <div class="col-lg-10 pl-2 pr-5">
-          <a class="font-weight-bold p-0" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
-          <h3 class="text-muted">BY BENNY JOHNSON</h3>
+          <a class="font-weight-bold p-0" href="#">Why Impeachment Doesn't Work</a c>
+          <h3 class="text-muted font-weight-bold pt-2">BY JENNIFER N. VICTOR</h3>
         </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
         <div class="col-lg-2">
-          <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="">
+          <img class="img-fluid img-rounded" src="./images/seth.webp" alt="man">
         </div>
         <div class="col-lg-10 pl-2 pr-5">
-          <a class="font-weight-bold p-0" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
-          <h3 class="text-muted">BY BENNY JOHNSON</h3>
+          <a class="font-weight-bold p-0" href="#">Iowa's Messy Results Offer Fascinating Clues About the Race Ahead</a c>
+          <h3 class="text-muted font-weight-bold pt-2">BY SETH MASKET</h3>
         </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
         <div class="col-lg-2">
-          <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="">
+          <img class="img-fluid img-rounded" src="./images/heather.webp" alt="woman">
         </div>
         <div class="col-lg-10 pl-2 pr-5">
-          <a class="font-weight-bold p-0" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
-          <h3 class="text-muted">BY BENNY JOHNSON</h3>
+          <a class="font-weight-bold p-0" href="#">Mitt Romney Might Be a Leader Without a Party. But He Is a Leader Still</a c>
+          <h3 class="text-muted font-weight-bold pt-2">BY HEATHER THOMPSON DAY</h3>
         </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
         <div class="col-lg-2">
-          <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="">
+          <img class="img-fluid img-rounded" src="./images/tom.webp" alt="man">
         </div>
         <div class="col-lg-10 pl-2 pr-5">
-          <a class="font-weight-bold p-0" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
-          <h3 class="text-muted">BY BENNY JOHNSON</h3>
+          <a class="font-weight-bold p-0" href="#">The Oscar for Lying Goes To...</a c>
+          <h3 class="text-muted font-weight-bold pt-2">BY TOM ROGERS</h3>
         </div>
     </div>
-    <div class="row p-2 mt-2 no-gutters">
+    <!-- <div class="row p-2 mt-2 no-gutters">
         <div class="col-lg-2">
           <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="">
         </div>
@@ -343,12 +373,12 @@
           <a class="font-weight-bold p-0" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a c>
           <h3 class="text-muted">BY BENNY JOHNSON</h3>
         </div>
-    </div>
+    </div> -->
     <div class="col-lg-12">
         <h2>Latest News</h2>
         <div class="row mt-3 p-1 border-bottom no-gutters">
            <div class="col-lg-4">
-             <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+             <img src="./images/bong.webp" alt="oscar award" class="img-fluid">
            </div>
            <div class="col-lg-8 pl-2">
              <a class="font-weight-bold" href="#">How to Watch Some of the Most Buzzed About 2020 Oscar Winners</a>
@@ -356,7 +386,7 @@
        </div>
        <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
-           <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+           <img src="./images/galaxy.webp" alt="galaxy" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">Mystery Radio Signal From Deep Space Appears to Be Repeating 16-Day Cycle</a>
@@ -364,7 +394,7 @@
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
-           <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+           <img src="./images/bong-joon.webp" alt="Bong joon" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">Five Facts About Bong Joon Ho's Interpreter Sharon Choi</a>
@@ -372,7 +402,7 @@
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
-           <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+           <img src="./images/broken-glass-floor.webp" alt="Broken blass" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">Art Critic Accidentally Destroys $19K Sculpture With a Soda Can</a>
@@ -380,7 +410,7 @@
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
-           <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+           <img src="./images/gayle-king.webp" alt="Gayle king" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">#IStandWithGayle Trends After Gayle King Receives Death Threats</a> 
@@ -388,24 +418,144 @@
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
-           <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
+           <img src="./images/jason.webp" alt="jason" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">Florida Dem Switches Endorsement From Biden to Bloomberg, First in State</a>
          </div>
      </div>
-     <div class="row mt-3 p-1 border-bottom no-gutters">
+     <!-- <div class="row mt-3 p-1 border-bottom no-gutters">
          <div class="col-lg-4">
            <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
          </div>
          <div class="col-lg-8 pl-2">
            <a class="p-0 m-0 font-weight-bold" href="#">Backstreet Boys DNA Tour 2020: How to Buy Tickets, Concert Dates, Locations</a>
          </div>
-     </div>
+     </div> -->
     </div>
-    </div>
+      <div class="col-lg-12">
+        <div class="card mt-4" style="width: 19rem;">
+          <img class="card-img-top" src="https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&h=229&f=c38d1701b1898e7dcc79c2e2dc3aef4a" alt="Card image cap">
+          <span class="image-info px-3 py-1 font-weight-bold">SPONSORED INSIGHT</span>
+          <div class="card-body">
+           <a href="#" class="card-link font-weight-bold">Saudi Arabia Accelerates Ahead</a>
+          <p class="card-text mt-2">With interest from international investors up 70 percent in 2019, Saudi Arabia is becoming an investment powerhouse—a transformation supported by its flourishing financial services industry and rapidly expanding private sector. Read more.</p>
+          </div>
+        </div>
+        <div class="border col-lg-8 p-3 mt-2">
+          <h2 class="font-weight-bold"><span id="firstSpan" class="border mb-2 px-2 font-weight-bold">N</span> SIGN UP FOR OUR <br> NEWSLETTER</h2>
+          <a href="#" class="btn btn-secondary mt-3 rounded-0 text-white">SIGN UP<span id="secondSpan" class="ml-2">&gt;</span></a>
+          <p>update your preferences »</p>
+         </div>
+         <div class="card mt-4" style="width: 19rem;">
+          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551978/media-school-indiana-university.jpg?w=343&h=229&f=2acd7418079f8cde5545fea5bb3815bd" alt="Card image cap">
+          <span class="image-info px-3 py-1 font-weight-bold">SPONSORED INSIGHT</span>
+          <div class="card-body">
+           <a href="#" class="card-link font-weight-bold">Good Journalists Are More Important Than Ever in 2020</a>
+          <p class="card-text mt-2">The world desperately needs sharp, incisive and capable journalists to cut through the noise with measured and nuanced takes on today's pressing issues. For these looking to find their voices, an education at a leading journalism school is invaluable.</p>
+          </div>
+        </div>
+        <div class="card mt-4" style="width: 19rem;">
+          <img class="card-img-top" src="https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&h=229&f=228a31483952835462a9e24494fc24f7" alt="Card image cap">
+          <div class="card-body">
+           <a href="#" class="card-link font-weight-bold">America's Most Socially Responsible Companies 2020</a>
+          <p class="card-text mt-2">Newsweek partnered with Statista Inc. to spotlight 300 companies that stand up as good citizens and good neighbors.</p>
+          </div>
+        </div>
+        <!-- <div class="mt-3">
+          <img class="img-fluid" src="./images/superman.webp" alt="">
+          <a href="#" class="btn btn-secondary p-1 rounded-0">SPONSORED NIGHT</a>
+        </div>
+        <div class="border p-4">
+           <a href="#">Saudi Arabia Accelerates Ahead</a>
+           <p>With interest from international investors up 70 percent in 2019, Saudi Arabia is becoming an investment powerhouse—a transformation supported by its flourishing financial services industry and rapidly expanding private sector. Read more.</p>
+        </div> -->
+        </div>
+      </div>
      </div>
      
+    </section>
+    <section id="secondArticle">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card mt-0" style="width: 19rem; height: 27rem;">
+            <img class="card-img-top img-fluid" src="./images/newsweek.webp" alt="Card image cap">
+            <div class="card-body">
+             <a href="#" class="card-link font-weight-bold text-dark">SUBSCRIBE HERE<span class="ml-2">&gt;</span></a>
+            </div>
+          </div>
+          <div class="mt-3">
+            <img class="img-fluid" src="./images/united.webp" alt="aeroplane">
+            <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">PERISCOPE</a><span class="ml-3 periscope">CULTURE</Span>
+             <div class="mt-2">
+              <a class="font-weight-bold text-secondArticle" href="#">The Top Three Airlines Used for ICE Deportations to Central America in 2019</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="d-flex justify-content-center border-bottom mt-4">
+              <h2 class="mb-2"><span id="firstSpan" class="border mb-2 px-2 font-weight-bold">N</span> IN THE MAGAZINE</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="mt-4">
+                <img class="img-fluid" src="./images/cornavirus.webp" alt="people">
+            <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">COVER</a><span class="ml-3 periscope">WORLD</Span>
+             <div class="mt-3">
+              <a class="font-weight-bold text-secondArticle" href="#">Coronavirus Outbreak Is A Wake-Up Call Showing How Unprepared We Are</a>
+            </div>
+            </div>
+              <div class="mt-5">
+                <img class="img-fluid" src="./images/underground.webp" alt="aeroplane">
+            <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">DOWNTIME</a><span class="ml-3 periscope">CULTURE</Span>
+             <div class="mt-2">
+              <a class="font-weight-bold text-secondArticle" href="#">Subway Stations That Will Stop You in Your Tracks</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="mt-4">
+              <img class="img-fluid" src="./images/wargames.webp" alt="war ship">
+          <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">FEATURES</a><span class="ml-3 periscope">WORLD</Span>
+           <div class="mt-3">
+            <a class="font-weight-bold text-secondArticle" href="#">Exclusive: While Everyone Focuses On Iran, US Military Prepares For Russia</a>
+          </div>
+          </div>
+            <div class="mt-5">
+              <img class="img-fluid" src="./images/steph.webp" alt="Comic">
+          <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">DOWNTIME</a><span class="ml-3 periscope">CULTURE</Span>
+           <div class="mt-2">
+            <a class="font-weight-bold text-secondArticle" href="#">Brooklyn Nine-Nine's Stephanie Beatriz Talks Being Bisexual and Latinx on Network TV</a>
+            </div>
+          </div>   
+          </div>
+          <div class="col-lg-4">
+            <div class="mt-4">
+              <img class="img-fluid" src="./images/kobe-banner.webp" alt="kobe barner">
+          <a id="firstSpan" class="btn rounded-0 px-1 py-0" href="#">PERISCOPE</a><span class="ml-3 periscope">CULTURE</Span>
+           <div class="mt-3">
+            <a class="font-weight-bold text-secondArticle" href="#">Kobe Bryant On Parenting, Taylor Swift And Life After Basketball</a>
+          </div>
+          </div>
+            <div class="mt-5">
+              <a href="#">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1564983/first-timer.webp?w=480&h=320&q=90&f=a5962a1913afe8d66ac713777e30d2dd" alt="stage show">
+          <span class="ml-3 focus font-weight-bold">IN FOCUS</Span>
+          </a>
+           <div class="mt-0">
+            <a class="font-weight-bold text-secondArticle" href="#">FIRST TIMER</a>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section id="thirdArticle">
+      <div class="col-lg-12">
+        <div class="d-flex justify-content-center border-bottom mt-4">
+          <h2 class="mb-2"><span id="firstSpan" class="border mb-2 px-2 font-weight-bold">N</span> EDITOR'S PICK</h2>
+        </div>
+      </div>
     </section>
 </div>
 

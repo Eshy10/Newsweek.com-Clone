@@ -5,11 +5,22 @@ body {
 #mainNavbar {
     background-color: #F72210;
     color: white;
-    height: 15vh;
+    height: 20vh;
 }
 
-.btn {
+.btn, .periscope {
     color: #F72210;
+}
+
+#firstSpan {
+    background-color: #F72210;
+    color: white;
+    font-size: 20px;
+}
+
+#secondSpan {
+    color: white; 
+    background-color: #6C757D;
 }
 
 .navbar-brand {
@@ -20,6 +31,9 @@ body {
 
 #mainNavbar a.nav-link {
     color: white; 
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
 }
 
 #secondNavbar::before {
@@ -51,6 +65,95 @@ i.fa-search {
     top: 1.1rem;
 }
 
+#firstArticle {
+    height: 170rem;
+  
+
+}
+
+.img-info {
+    position: relative;
+    bottom: 2rem;
+    color: #f72210;
+    background-color: #F3F2F1;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.focus {
+    position: relative;
+    bottom: 1.2rem;
+    right: 1.1rem;
+    background-color: #f72210;
+    color: #F3F2F1;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.image-info {
+    position: relative;
+    bottom: 1.5rem;
+    color: #108ff7;
+    background-color: #F3F2F1;
+    z-index: 1;
+    font-size: 16px;  
+}
+
+.article-info {
+    position: relative;
+    bottom: .5rem;
+    right: 18.5rem;
+    color: #f72210;
+    background-color: #F3F2F1;
+    z-index: 1;
+    font-size: 16px;  
+}
+
+
+#culture {
+    background-color: #F4F5F7;
+}
+
+#culture a:nth-child(4) {
+    font-family: 'Lora', serif;
+    background-color: #C2D4D7;
+    font-size: 13px;
+}
+
+.text-secondArticle {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+/* .img-section {
+    position: relative;
+}
+
+#button {
+    position: absolute;
+    left:22px;
+    top: 11.7rem;
+    background-color: rgb(215, 221, 226);
+    color: #F72210;
+} */
+
+/* #firstSection {
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 177rem;
+  scroll-snap-align: start;
+    
+}
+
+#firstSection::-webkit-scrollbar {
+   display: none;
+
+} */
+
 #firstArticle a {
     line-height: 24px;
     font-size: 20px;
@@ -62,6 +165,8 @@ i.fa-search {
     font-size: 15px;
     color: black;
 }
+
+
 
 /* #secondImage {
     max-height: 60vh; 
