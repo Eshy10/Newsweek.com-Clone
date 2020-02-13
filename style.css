@@ -236,6 +236,23 @@ i.fa-search {
     color: rgb(141, 139, 137);
 }
 
+.subscribe {
+    background-color: #F72210;
+}
+
+.story {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.last-article-bg {
+    background-color: #F4F5F6;
+}
+
+.last-img {
+    height: 15.6rem;
+}
+
 
 @media (max-width: 992px) {
     #mainNavbar {
