@@ -8,6 +8,7 @@ body {
     height: 20vh;
 }
 
+
 .btn, .periscope {
     color: #F72210;
 }
@@ -65,11 +66,18 @@ i.fa-search {
     top: 1.1rem;
 }
 
-#firstArticle {
-    height: 170rem;
-  
 
+#topStory{
+    padding: 0;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100%;
 }
+#featuredStories, #thirdSection {
+    height: 100%;
+}
+
 
 .img-info {
     position: relative;
@@ -130,34 +138,6 @@ i.fa-search {
 }
 
 
-
-
-
-/* .img-section {
-    position: relative;
-}
-
-#button {
-    position: absolute;
-    left:22px;
-    top: 11.7rem;
-    background-color: rgb(215, 221, 226);
-    color: #F72210;
-} */
-
-/* #firstSection {
-  overflow: scroll;
-  overflow-x: hidden;
-  max-height: 177rem;
-  scroll-snap-align: start;
-    
-}
-
-#firstSection::-webkit-scrollbar {
-   display: none;
-
-} */
-
 #firstArticle a {
     line-height: 24px;
     font-size: 20px;
@@ -170,12 +150,6 @@ i.fa-search {
     color: black;
 }
 
-
-
-/* #secondImage {
-    max-height: 60vh; 
-    max-width: 100%;
-} */
 
 #thirdSection a {
     font-size: 17px;
@@ -271,5 +245,6 @@ i.fa-search {
     .navbar-brand img {
         height: 5vh;
     }
+
 
 }
