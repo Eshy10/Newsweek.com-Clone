@@ -109,6 +109,10 @@ i.fa-search {
     font-size: 16px;  
 }
 
+.img-span {
+    bottom: 2rem;
+}
+
 
 #culture {
     background-color: #F4F5F7;
@@ -183,6 +187,19 @@ i.fa-search {
     font-size: 14px;
     line-height: 21px;
 }
+
+#thirdArticle  a {
+    font-size: 24px;
+    color: black;
+    line-height: 24px;
+}
+
+#thirdArticle p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 
 @media (max-width: 992px) {
     #mainNavbar {
