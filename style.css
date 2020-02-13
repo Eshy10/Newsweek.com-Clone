@@ -210,6 +210,28 @@ i.fa-search {
     color: black;
 }
 
+.fifthTitle {
+    color: #f72210;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.fifthTitle-a {
+    color: black;
+    font-size: 22px;
+    line-height: 22px;
+}
+.fifthTitle-a:hover, .fifthTitle-img:hover {
+    color: #f72210;
+  
+}
+
+.fifthTitle-img {
+    color: black; 
+    font-size: 17px; 
+    line-height: 21px;
+}
+
 
 @media (max-width: 992px) {
     #mainNavbar {
