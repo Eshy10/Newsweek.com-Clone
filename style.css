@@ -232,6 +232,10 @@ i.fa-search {
     line-height: 21px;
 }
 
+#latest {
+    color: rgb(141, 139, 137);
+}
+
 
 @media (max-width: 992px) {
     #mainNavbar {
