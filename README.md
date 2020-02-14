@@ -9,8 +9,8 @@ To clone <a href="https://www.newsweek.com/" target="blank">Newsweek.com</a> for
 
 
 # Tools 
-- HTML,
-- CSS
+- HTML5
+- CSS3
 
 
 # Live demo
