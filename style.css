@@ -11,9 +11,8 @@ body {font-family: 'Roboto Condensed', sans-serif;}
 
 .btn, .periscope { color: #F72210;}
 
-section {overflow: hidden;}
 
-#firstSpan {
+#firstSpan, #firstSpan1, #firstSpan2, #firstSpan3, #firstSpan4, #firstSpan5, #firstSpan6, #firstSpan7, #firstSpan8, #firstSpan9 {
     background-color: #F72210;
     color: white;
     font-size: 20px;
@@ -119,6 +118,8 @@ i.fa-search {
     background-color: #C2D4D7;
     font-size: 13px;
 }
+
+article {overflow: hidden;}
 
 .text-secondArticle {
     font-size: 20px;
