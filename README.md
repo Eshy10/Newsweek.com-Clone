@@ -1,6 +1,7 @@
 # Newsweek.com-Clone
 
-![screenshot](./Screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/52670459/74545279-e1a2bd80-4f48-11ea-8a89-3e1993c27c59.png)
+
 
 
 # Purpose
