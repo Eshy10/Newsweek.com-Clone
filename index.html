@@ -21,15 +21,15 @@
   <!-- navigation bars -->
     <header>
       <div class="container-fluid">
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg d-flex justify-content-between align-items-end">
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg d-flex justify-content-between align-items-end first-nav">
             <p class="d-none d-lg-block">Mon, Feb 10, 2020</p>
             <a href="#" class="navbar-brand  order-md-1"><img class="img-fluid main-logo" src="./images/logo-news.png" alt=""></a>
-            <button class="navbar-toggler order-3" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler order-3 pr-2" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon pb-md-2 pb-lg-0 border-0"></span>
             </button>
                <ul class="nav navbar-nav flex-row ml-auto pr-md-2  order-md- p-0 align-items-end">
-                   <li class="nav-item"><a href="#" class="nav-link font-weight-bold pr-md-2 ">SIGN IN</a></li>
-                   <li class="nav-item"><a href="#" class="btn rounded-0 p-0 bg-white font-weight-bold">SUBSCRIBE<span class="ml-2">&gt;</span></a></li>
+                   <li class="nav-item right-nav1"><a href="#" class="nav-link font-weight-bold pr-md-2">SIGN IN</a></li>
+                   <li class="nav-item right-nav2"><a href="#" id="subLink" class="btn rounded-0 p-0 pl-0 pr-2 bg-white font-weight-bold">SUBSCRIBE<span class="ml-2">&gt;</span></a></li>
                </ul>
         </nav>
           <nav id="secondNavbar" class="navbar d-none d-lg-flex navbar-expand-lg border-bottom">
@@ -78,7 +78,7 @@
       <!-- First Article -->
     <article id="firstArticle">
      <div class="row m-0 mt-4">
-     <div id="featuredStories" class="col-12 col-lg-3 col-md-6 pl-4 order-sm-2 order-md-0 h-100">
+     <div id="featuredStories" class="col-12 col-lg-3 col-md-5 pl-4 order-sm-2 order-md-0 h-100">
       <h2 class="text-muted">FEATURED STORIES</h2>
       <div class="mt-1">
         <a href="#">
@@ -147,7 +147,7 @@
         </div>
       </div>
      </div>
-     <div id="topStory" class="col-12 col-lg-5 col-md-6 order-sm-1 order-md-0 h-100">
+     <div id="topStory" class="col-12 col-lg-5 col-md-7 order-sm-1 order-md-0 h-100">
     <h2 class="text-muted px-3 px-md-0">TOP STORY</h2>
     <div class="mt-1">
       <a href="#">
@@ -160,7 +160,7 @@
           a top congressional Democrat said in a letter asking federal watchdogs to investigate.</p>
       </div>
       </div>
-      <div class="row mt-4 ">
+      <div class="row mt-4">
       <div id="culture" class="col-lg-12 order-3 order-md-0">
           <h2 class="font-weight-bold text-muted pt-1 ">CULTURE & TRAVEL</h2>
           <div class="row pt-2">
@@ -278,103 +278,125 @@
         </div>
       </div>
       </div>
-     </div>
-     <div id="thirdSection" class="col-12 col-lg-4 col-md-6 order-sm-3 order-md-0 h-100 mt-3 mt-md-0">
+    </div>
+     <div id="thirdSection" class="col-12 col-lg-4 col-md-12 order-sm-3 order-md-0 h-100 mt-3 mt-md-0">
     <h2 class="text-muted ml-3 ml-md-3">OPINION</h2>
-    <div class="row p-2 border-bottom no-gutter">
-        <div class="col-lg-2 col-md-2 col-2 opinion p-0 p-lg-2">
+    <div class="row p-2 border-bottom no-gutters">
+      <div class="col-12 d-flex">
+        <div class="opinion ">
           <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="man">
         </div>
-        <div class="col-lg-10 col-md-10 col-10 pl-2 pr-5">
+        <div class="ml-3">
           <a class="font-weight-bold" href="#">Say Bye to Media Coverage If Pelosi Succeeds in Censoring Our Video</a>
           <h3 class="text-muted font-weight-bold pt-2">BY BENNY JOHNSON</h3>
         </div>
+      </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
-        <div class="col-lg-2 col-md-2 col-2 opinion">
+      <div class="col-12 d-flex">
+        <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/jennifer.webp" alt="woman">
         </div>
-        <div class="col-lg-10 col-md-10 col-10 pl-2 pr-5">
+        <div class="ml-3">
           <a class="font-weight-bold p-0" href="#">Why Impeachment Doesn't Work</a>
           <h3 class="text-muted font-weight-bold pt-2">BY JENNIFER N. VICTOR</h3>
         </div>
+      </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
-        <div class="col-lg-2 col-md-2 col-2 opinion">
+      <div class="col-12 d-flex">
+        <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/seth.webp" alt="man">
         </div>
-        <div class="col-lg-10 col-md-10 col-10 pl-2 pr-5">
+        <div class="ml-3">
           <a class="font-weight-bold p-0" href="#">Iowa's Messy Results Offer Fascinating Clues About the Race Ahead</a>
           <h3 class="text-muted font-weight-bold pt-2">BY SETH MASKET</h3>
         </div>
+      </div>
     </div>
     <div class="row p-2 mt-2 border-bottom no-gutters">
-        <div class="col-lg-2 col-md-2 col-2 opinion">
+      <div class="col-12 d-flex">
+        <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/heather.webp" alt="woman">
         </div>
-        <div class="col-lg-10 col-md-10 col-10 pl-2 pr-5">
+        <div class="ml-3">
           <a class="font-weight-bold p-0" href="#">Mitt Romney Might Be a Leader Without a Party. But He Is a Leader Still</a>
           <h3 class="text-muted font-weight-bold pt-2">BY HEATHER THOMPSON DAY</h3>
         </div>
+      </div>
     </div>
     <div class="row p-2 mt-2 no-gutters">
-        <div class="col-lg-2 col-md-2 col-2 opinion">
+      <div class="col-12 d-flex">
+        <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/tom.webp" alt="man">
         </div>
-        <div class="col-lg-10 col-md-10 col-10 pl-2 pr-5">
+        <div class="ml-3">
           <a class="font-weight-bold p-0" href="#">The Oscar for Lying Goes To...</a>
           <h3 class="text-muted font-weight-bold pt-2">BY TOM ROGERS</h3>
         </div>
+      </div>
     </div>
     <div class="col-lg-12 col-md-12 mt-3">
         <h2 id="latest" class="text-muted font-weight-bold">LATEST NEWS</h2>
         <div class="row mt-3 p-1 border-bottom no-gutters">
-           <div class="col-lg-4 col-md-4 col-4 opinion">
+          <div class="col-12 d-flex">
+           <div class="image image-big">
              <img src="./images/bong.webp" alt="oscar award" class="img-fluid">
            </div>
-           <div class="col-lg-8 col-md-8 col-8 pl-2">
+           <div class="ml-3">
              <a class="font-weight-bold" href="#">How to Watch Some of the Most Buzzed About 2020 Oscar Winners</a>
            </div>
+          </div>
        </div>
        <div class="row mt-3 p-1 border-bottom no-gutters">
-         <div class="col-lg-4 col-md-4 col-4 opinion">
+        <div class="col-12 d-flex">
+         <div class="image">
            <img src="./images/galaxy.webp" alt="galaxy" class="img-fluid">
          </div>
-         <div class="col-lg-8 col-md-8 col-8 pl-2">
-           <a class="p-0 m-0 font-weight-bold" href="#">Mystery Radio Signal From Deep Space Appears to Be Repeating 16-Day Cycle</a>
+         <div class="ml-3">
+           <a class="font-weight-bold" href="#">Mystery Radio Signal From Deep Space Appears to Be Repeating 16-Day Cycle</a>
          </div>
+        </div>
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
-         <div class="col-lg-4 col-md-4 col-4 opinion">
+      <div class="col-12 d-flex">  
+      <div class="image">
            <img src="./images/bong-joon.webp" alt="Bong joon" class="img-fluid">
          </div>
-         <div class="col-lg-8 col-md-8 col-8 pl-2">
-           <a class="p-0 m-0 font-weight-bold" href="#">Five Facts About Bong Joon Ho's Interpreter Sharon Choi</a>
+         <div class="ml-3">
+           <a class="font-weight-bold" href="#">Five Facts About Bong Joon Ho's Interpreter Sharon Choi</a>
          </div>
+      </div>
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
-         <div class="col-lg-4 col-md-4 col-4 opinion">
+      <div class="col-12 d-flex">
+         <div class="image">
            <img src="./images/broken-glass-floor.webp" alt="Broken blass" class="img-fluid">
          </div>
-         <div class="col-lg-8 col-md-8 col-8 pl-2">
-           <a class="p-0 m-0 font-weight-bold" href="#">Art Critic Accidentally Destroys $19K Sculpture With a Soda Can</a>
+         <div class="ml-3">
+           <a class="font-weight-bold" href="#">Art Critic Accidentally Destroys $19K Sculpture With a Soda Can</a>
+         </div>
          </div>
      </div>
      <div class="row mt-3 p-1 border-bottom no-gutters">
-         <div class="col-lg-4 col-md-4 col-4 opinion">
+      <div class="col-12 d-flex">  
+      <div class="image">
            <img src="./images/gayle-king.webp" alt="Gayle king" class="img-fluid">
          </div>
-         <div class="col-lg-8 col-md-8 col-8 pl-2">
-           <a class="p-0 m-0 font-weight-bold" href="#">#IStandWithGayle Trends After Gayle King Receives Death Threats</a> 
+         <div class="ml-3">
+           <a class="font-weight-bold" href="#">#IStandWithGayle Trends After Gayle King Receives Death Threats</a> 
          </div>
+      </div>
      </div>
-     <div class="row mt-3 p-1 border-bottom no-gutters">
-         <div class="col-lg-4 col-md-4 col-4 opinion">
+     <div class="row mt-3 p-1 no-gutters">
+      <div class="col-12 d-flex">  
+      <div class="image">
            <img src="./images/jason.webp" alt="jason" class="img-fluid">
          </div>
-         <div class="col-lg-8 col-md-8 col-8 pl-2">
-           <a class="p-0 m-0 font-weight-bold" href="#">Florida Dem Switches Endorsement From Biden to Bloomberg, First in State</a>
+         <div class="ml-3">
+           <a class="font-weight-bold" href="#">Florida Dem Switches Endorsement From Biden to Bloomberg, First in State</a>
          </div>
+     </div>
      </div>
     </div>
       <div class="col-lg-12 col-md-12 d-md-flex mt-5 mt-md-0 flex-column align-items-center">
@@ -386,9 +408,10 @@
           <p class="card-text mt-2">With interest from international investors up 70 percent in 2019, Saudi Arabia is becoming an investment powerhouse—a transformation supported by its flourishing financial services industry and rapidly expanding private sector. Read more.</p>
           </div>
         </div>
-        <div class="border col-lg-8 p-3 mt-2 newsletter">
-          <h2 class="font-weight-bold"><span id="firstSpan" class="border mb-2 px-2 font-weight-bold">N</span> SIGN UP FOR OUR <br> NEWSLETTER</h2>
-          <a href="#" class="btn btn-secondary mt-3 rounded-0 text-white">SIGN UP<span id="secondSpan" class="ml-2">&gt;</span></a>
+        <div class="border col-lg-8 p-3 mt-3 newsletter">
+          <h2 class="font-weight-bold ml-1"><span id="firstSpan" class="border mb-2 px-2 font-weight-bold">N</span> SIGN UP FOR OUR</h2>
+          <h2 class="m-0 p-0 font-weight-bold tex-dark ml-4 pl-3">NEWSLETTER</h2>
+          <a href="#" class="btn btn-secondary mt-3 rounded-0 text-white font-weight-bold">SIGN UP<span id="secondSpan" class="ml-2">&gt;</span></a>
           <p>update your preferences »</p>
          </div>
          <div class="card mt-4">
@@ -978,7 +1001,7 @@
      </div>
      </div>
      <div class="col-lg-4 col-md-12">
-      <div class="card mt-5" style="max-width: 1000px; max-height:500px;">
+      <div class="card last-card mt-5">
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-3">
             <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" class="card-img last-img" alt="mobile">
@@ -998,7 +1021,7 @@
     </div>
     </article>
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer" class="mx-4">
       <div class="row m-0 border-top border-bottom mt-5">
         <div class="col-lg-12 col-md-12">
           <div id="firstFooter" class="d-flex flex-lg-row mb-2  align-items-lg-end">
@@ -1028,29 +1051,31 @@
       </div>
       <div class="row m-0 mt-3">
         <div id="secondFooter" class="col-lg-12 col-md-12">
-          <ul class="d-lg-flex footer-link w-100">
-            <li class="pr-2 border-lg-right foot"><a class="text-muted" href="#">About Us</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Corrections</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Contact Us</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Editorial Guidelines</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Advertise</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Copywright</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Terms & Conditions</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Privacy Policy</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Cookie Policy</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Terms of sale</a></li>
-            <li class="pr-2 pl-2 border-lg-right"><a class="text-muted" href="#">Archive</a></li>
+          <ul class="d-lg-flex footer-link">
+            <li class=""><a class="text-muted" href="#">About Us</a></li>
+            <li class=""><a class="text-muted" href="#">Corrections</a></li>
+            <li class=""><a class="text-muted" href="#">Contact Us</a></li>
+            <li class=""><a class="text-muted" href="#">Editorial Guidelines</a></li>
+            <li class=""><a class="text-muted" href="#">Advertise</a></li>
+            <li class=""><a class="text-muted" href="#">Copywright</a></li>
+            <li class=""><a class="text-muted" href="#">Terms & Conditions</a></li>
+            <li class=""><a class="text-muted" href="#">Privacy Policy</a></li>
+            <li class=""><a class="text-muted" href="#">Cookie Policy</a></li>
+            <li class=""><a class="text-muted" href="#">Terms of sale</a></li>
+            <li class=""><a class="text-muted" href="#">Archive</a></li>
+            <li class=""><a class="text-muted" href="#">Announcements</a></li>
+            <li class="border-0 last-link"><a class="text-muted" href="#">Consent Preferences</a></li>
           </ul>
         </div>
       </div>
-      <div class="row-0 mt-3">
+      <!-- <div class="row-0 mt-3">
         <div class="col-lg-12 col-md-12 pb-5">
           <ul class="d-flex">
             <li class="pr-2 border-right"><a class="text-muted" href="#">Announcements</a></li>
             <li class="pr-2 pl-2 border-right"><a class="text-muted" href="#">Consent Preferences</a></li>
             </ul>
         </div>
-      </div>
+      </div> -->
     </footer>
 </div>
 
