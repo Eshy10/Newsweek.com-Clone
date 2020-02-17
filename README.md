@@ -1,8 +1,10 @@
 # Newsweek.com-Clone
 
+# Desktop Version
 ![Screenshot](https://user-images.githubusercontent.com/52670459/74545279-e1a2bd80-4f48-11ea-8a89-3e1993c27c59.png)
 
-
+# Mobile Version
+![screenshotMobile](https://user-images.githubusercontent.com/52670459/74647178-81479200-517b-11ea-8309-ca49a4c41e58.png)
 
 # Purpose
 To clone <a href="https://www.newsweek.com/" target="blank">Newsweek.com</a> for a Bootstrap Project at Microverse
@@ -11,6 +13,7 @@ To clone <a href="https://www.newsweek.com/" target="blank">Newsweek.com</a> for
 # Tools 
 - HTML5
 - CSS3
+- BootStrap 4
 
 
 # Live demo
