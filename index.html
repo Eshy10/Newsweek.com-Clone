@@ -25,10 +25,10 @@
             <p class="d-none d-lg-block">Mon, Feb 10, 2020</p>
             <a href="#" class="navbar-brand  order-md-1"><img class="img-fluid main-logo" src="./images/logo-news.png" alt=""></a>
             <button class="navbar-toggler order-3 pr-2" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon pb-md-2 pb-lg-0 border-0"></span>
+                <span class="navbar-toggler-icon pb-md-2 pb-lg-0 border-0 buttonIcon"></span>
             </button>
-               <ul class="nav navbar-nav flex-row ml-auto pr-md-2  order-md- p-0 align-items-end">
-                   <li class="nav-item right-nav1"><a href="#" class="nav-link font-weight-bold pr-md-2">SIGN IN</a></li>
+               <ul class="nav navbar-nav d-flex flex-row ml-auto pr-md-2 p-0 align-items-end nav-right">
+                   <li class="nav-item right-nav1"><a href="#" id="subLink1" class="nav-link font-weight-bold pr-md-2">SIGN IN</a></li>
                    <li class="nav-item right-nav2"><a href="#" id="subLink" class="btn rounded-0 p-0 pl-0 pr-2 bg-white font-weight-bold">SUBSCRIBE<span class="ml-2">&gt;</span></a></li>
                </ul>
         </nav>
@@ -78,7 +78,7 @@
       <!-- First Article -->
     <article id="firstArticle">
      <div class="row m-0 mt-4">
-     <div id="featuredStories" class="col-12 col-lg-3 col-md-5 pl-4 order-sm-2 order-md-0 h-100">
+     <div id="featuredStories" class="col-12 col-lg-3 col-md-5 pl-4 order-2 order-sm-2 order-md-0 h-100 mt-3 mt-md-0">
       <h2 class="text-muted">FEATURED STORIES</h2>
       <div class="mt-1">
         <a href="#">
@@ -147,7 +147,7 @@
         </div>
       </div>
      </div>
-     <div id="topStory" class="col-12 col-lg-5 col-md-7 order-sm-1 order-md-0 h-100">
+     <div id="topStory" class="col-12 col-lg-5 col-md-7 order-1 order-sm-1 order-md-0 h-100">
     <h2 class="text-muted px-3 px-md-0">TOP STORY</h2>
     <div class="mt-1">
       <a href="#">
@@ -160,8 +160,9 @@
           a top congressional Democrat said in a letter asking federal watchdogs to investigate.</p>
       </div>
       </div>
-      <div class="row mt-4">
-      <div id="culture" class="col-lg-12 order-3 order-md-0">
+      <div class="cultureStories">
+      <div class="row-0 mt-4">
+      <div id="culture" class="col-lg-12 order-1 order-md-0">
           <h2 class="font-weight-bold text-muted pt-1 ">CULTURE & TRAVEL</h2>
           <div class="row pt-2">
             <div class="col-lg-6 col-md-6 col-12">
@@ -201,87 +202,104 @@
          </div>
       </div>
      </div>
-     <div class="row">
-      <div class="col-lg-12  order-2 order-md-0 mt-3">
+     <div class="row-0">
+      <div class="col-lg-12 order-0 order-md-0 mt-3">
         <h2 class="text-muted font-weight-bold pt-3 pb-2 border-bottom">MORE STORIES</h2>
-          <div  class="row mt-2 border-bottom pb-2 no-gutters">
-              <div class="col-lg-4 col-4">
+          <div class="row-0 mt-2 border-bottom pb-2 ">
+            <div class="col-12 clearfix moreStory">
+              <div class="float-left mr-md-3">
                 <img src="./images/obama.webp" alt="Barak Obama" class="img-fluid">
               </div>
-              <div class="col-lg-8 col-8">
+              <div>
                 <a class="font-weight-bold" href="#">Obama Left Trump 'a Horrible Legacy,' Russia's Foreign Minister Says</a>
                 <p class="mt-2">Sergei Lavrov accused President Barack Obama of putting personal issues before those of the state and undermining ties between Washington and Moscow.</p> 
               </div>
+            </div>
           </div>
-          <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+          <div class="row-0 mt-2 border-bottom pb-2">
+            <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/cchina.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">Coronavirus Could Be Airborne, Chinese Official Claims</a>
-              <p class="pt-2">The deadly 2019-nCoV virus has spread to over 25 countries and territories.</p> 
+              <p class="mt-2">The deadly 2019-nCoV virus has spread to over 25 countries and territories.</p> 
+            </div>
             </div>
         </div>
-        <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 border-bottom pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/congress.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
-              <a class="font-weight-bold" href="#">Former Iowa Congressman Refers to Tom Perez as 'Pontius Pilate' Amid Caucus 'Mess'</a>
+            <div>
+              <a class="font-weight-bold" href="#">Former Iowa Congressman Refers to Tom Perez as 'Pontius Pilate'</a>
               <p class="pt-2">Dave Nagle pinned blame for the chaotic caucus on the DNC chairman and said Iowa Democrats were "bushwhacked by a bad system."</p> 
             </div>
+          </div>
         </div>
-        <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 border-bottom pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/mitt.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">CPAC Chairman Says Mitt Romney Would Not Be Safe at Annual Meeting</a>
               <p class="pt-2">Matt Schlapp said Sunday that the senator of Utah had "lied so continuously to conservatives" and distanced himself from President Donald Trump.</p> 
             </div>
+          </div>
         </div>
-        <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 border-bottom pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/alex.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">Tulsi Gabbard Defends Trump Over Alexander Vindman Firing</a>
               <p class="pt-2">Gabbard split with President Donald Trump on many of his foreign policy decisions but claimed the president is within his right to decide who he wants in his Cabinet.</p> 
             </div>
+          </div>
         </div>
-        <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 border-bottom pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/donald-trump.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">Team Bloomberg Trolls Trump During Oscars With 'Best Fictional Wall' Award</a>
               <p class="pt-2">Team Bloomberg handed out the "Donalds" awards as Sunday's Oscars night unfolded.</p> 
             </div>
+          </div>
         </div>
-        <div class="row mt-2 border-bottom pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 border-bottom pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/ship.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">Around Third of Coronavirus Cases Outside China on Quarantined Cruise Ship</a>
               <p class="pt-2">The new form of the coronavirus has killed over 910 people since it emerged in China late last year.</p> 
             </div>
+          </div>
         </div>
-        <div class="row mt-2 pb-2">
-            <div class="col-lg-4 col-4">
+        <div class="row-0 mt-2 pb-2">
+          <div class="col-12 clearfix moreStory">
+            <div class="float-left mr-md-3">
               <img src="./images/soldiers.webp" alt="Barak Obama" class="img-fluid">
             </div>
-            <div class="col-lg-8 col-8">
+            <div>
               <a class="font-weight-bold" href="#">Military Identifies Special Operation Soldiers Killed in Afghanistan Combat</a>
               <p class="pt-2">The two officers were part of a group of U.S. personnel from the 3rd Battalion, 7th Special Forces Group and members of the allied Afghan Special Operations Forces.</p> 
             </div>
+          </div>
         </div>
       </div>
       </div>
+      </div>
     </div>
-     <div id="thirdSection" class="col-12 col-lg-4 col-md-12 order-sm-3 order-md-0 h-100 mt-3 mt-md-0">
+     <div id="thirdSection" class="col-12 col-lg-4 col-md-12 order-3 order-sm-3 order-md-0 h-100 mt-3 mt-md-0">
     <h2 class="text-muted ml-3 ml-md-3">OPINION</h2>
-    <div class="row p-2 border-bottom no-gutters">
+    <div class="row-0 p-2 border-bottom no-gutters">
       <div class="col-12 d-flex">
         <div class="opinion ">
           <img class="img-fluid img-rounded" src="./images/benny-johnson.webp" alt="man">
@@ -292,18 +310,19 @@
         </div>
       </div>
     </div>
-    <div class="row p-2 mt-2 border-bottom no-gutters">
+    <div class="row-0 p-2 mt-2 border-bottom no-gutters">
       <div class="col-12 d-flex">
         <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/jennifer.webp" alt="woman">
         </div>
         <div class="ml-3">
-          <a class="font-weight-bold p-0" href="#">Why Impeachment Doesn't Work</a>
+          <a class="font-weight-bold p-0" href="#">
+            Stephen Miller Brought White Supremacy Into Our Immigration Policy</a>
           <h3 class="text-muted font-weight-bold pt-2">BY JENNIFER N. VICTOR</h3>
         </div>
       </div>
     </div>
-    <div class="row p-2 mt-2 border-bottom no-gutters">
+    <div class="row-0 p-2 mt-2 border-bottom no-gutters">
       <div class="col-12 d-flex">
         <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/seth.webp" alt="man">
@@ -314,7 +333,7 @@
         </div>
       </div>
     </div>
-    <div class="row p-2 mt-2 border-bottom no-gutters">
+    <div class="row-0 p-2 mt-2 border-bottom no-gutters">
       <div class="col-12 d-flex">
         <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/heather.webp" alt="woman">
@@ -325,72 +344,73 @@
         </div>
       </div>
     </div>
-    <div class="row p-2 mt-2 no-gutters">
+    <div class="row-0 p-2 mt-2 no-gutters">
       <div class="col-12 d-flex">
         <div class="opinion">
           <img class="img-fluid img-rounded" src="./images/tom.webp" alt="man">
         </div>
         <div class="ml-3">
-          <a class="font-weight-bold p-0" href="#">The Oscar for Lying Goes To...</a>
+          <a class="font-weight-bold p-0" href="#">Don't Blame Sanders for Rising Socialism. Blame Capitalists Like Me</a>
           <h3 class="text-muted font-weight-bold pt-2">BY TOM ROGERS</h3>
         </div>
       </div>
     </div>
+    <div class="row-0">
     <div class="col-lg-12 col-md-12 mt-3">
         <h2 id="latest" class="text-muted font-weight-bold">LATEST NEWS</h2>
-        <div class="row mt-3 p-1 border-bottom no-gutters">
+        <div class="row-0 mt-3 p-1 border-bottom no-gutters">
           <div class="col-12 d-flex">
-           <div class="image image-big">
+           <div class="latestImg mr-3">
              <img src="./images/bong.webp" alt="oscar award" class="img-fluid">
            </div>
-           <div class="ml-3">
+           <div>
              <a class="font-weight-bold" href="#">How to Watch Some of the Most Buzzed About 2020 Oscar Winners</a>
            </div>
           </div>
        </div>
-       <div class="row mt-3 p-1 border-bottom no-gutters">
+       <div class="row-0 mt-3 p-1 border-bottom no-gutters">
         <div class="col-12 d-flex">
-         <div class="image">
-           <img src="./images/galaxy.webp" alt="galaxy" class="img-fluid">
+         <div class="latestImg mr-3">
+           <img src="./images/galaxy.webp" alt="galaxy" class="img-fluid img-galaxy">
          </div>
-         <div class="ml-3">
+         <div>
            <a class="font-weight-bold" href="#">Mystery Radio Signal From Deep Space Appears to Be Repeating 16-Day Cycle</a>
          </div>
         </div>
      </div>
-     <div class="row mt-3 p-1 border-bottom no-gutters">
+     <div class="row-0 mt-3 p-1 border-bottom no-gutters">
       <div class="col-12 d-flex">  
-      <div class="image">
+      <div class="latestImg mr-3">
            <img src="./images/bong-joon.webp" alt="Bong joon" class="img-fluid">
          </div>
-         <div class="ml-3">
+         <div>
            <a class="font-weight-bold" href="#">Five Facts About Bong Joon Ho's Interpreter Sharon Choi</a>
          </div>
       </div>
      </div>
-     <div class="row mt-3 p-1 border-bottom no-gutters">
+     <div class="row-0 mt-3 p-1 border-bottom no-gutters">
       <div class="col-12 d-flex">
-         <div class="image">
+         <div class="latestImg mr-3">
            <img src="./images/broken-glass-floor.webp" alt="Broken blass" class="img-fluid">
          </div>
-         <div class="ml-3">
+         <div>
            <a class="font-weight-bold" href="#">Art Critic Accidentally Destroys $19K Sculpture With a Soda Can</a>
          </div>
          </div>
      </div>
-     <div class="row mt-3 p-1 border-bottom no-gutters">
+     <div class="row-0 mt-3 p-1 border-bottom no-gutters">
       <div class="col-12 d-flex">  
-      <div class="image">
+      <div class="latestImg mr-3">
            <img src="./images/gayle-king.webp" alt="Gayle king" class="img-fluid">
          </div>
-         <div class="ml-3">
+         <div>
            <a class="font-weight-bold" href="#">#IStandWithGayle Trends After Gayle King Receives Death Threats</a> 
          </div>
       </div>
      </div>
-     <div class="row mt-3 p-1 no-gutters">
+     <div class="row-0 mt-3 p-1 no-gutters">
       <div class="col-12 d-flex">  
-      <div class="image">
+      <div class="latestImg mr-3">
            <img src="./images/jason.webp" alt="jason" class="img-fluid">
          </div>
          <div class="ml-3">
@@ -399,6 +419,7 @@
      </div>
      </div>
     </div>
+  </div>
       <div class="col-lg-12 col-md-12 d-md-flex mt-5 mt-md-0 flex-column align-items-center">
         <div class="card mt-4">
           <img class="card-img-top" src="https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&h=229&f=c38d1701b1898e7dcc79c2e2dc3aef4a" alt="Card image cap">
@@ -709,28 +730,34 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4">
-        <div class="row mt-2 p-2  border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+        <div class="row-0 mt-2 p-2  border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid " src="https://d.newsweek.com/en/full/1566106/mark-degner.webp?w=135&h=90&f=3565037064b4034b3fee6621c66fde2b" alt="Man">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
+          <div>
             <a class="font-weight-bold fifthTitle-img" href="#">Photos Showing How Boys Might Look 15 Years After Disappearance Released</a>
           </div>
+        </div>
       </div>
-      <div class="row p-2 border-bottom no-gutters">
-        <div class="col-lg-4 col-md-4">
+      <div class="row-0 p-2 border-bottom no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid  img-rounded" src="https://d.newsweek.com/en/full/1566104/bernie-sanders.webp?w=135&h=90&f=cc9ab49b9b7f19292c43acd60622fac4" alt="">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
+        <div>
           <a class="font-weight-bold fifthTitle-img" href="#">44 Percent of New Hampshire Voters Say Bernie Sanders Will Be the Nominee</a>
         </div>
+      </div>
     </div>
-    <div class="row p-2  no-gutters">
-      <div class="col-lg-4 col-md-4">
+    <div class="row-0 p-2 no-gutters">
+      <div class="clearfix">
+      <div class="float-left mr-3">
         <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1566099/police-tape.webp?w=135&h=90&f=cb303114f71fef90c7fcf52f7af81445" alt="">
       </div>
-      <div class="col-lg-8 col-md-8 pl-2 pr-5">
+      <div>
         <a class="font-weight-bold fifthTitle-img" href="#">Family Offers to Fund Legal Expenses of Hit-and-Run Driver Who Injured Son</a>
+      </div>
       </div>
       </div>
   </div>
@@ -758,32 +785,38 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="row p-1 mt-2  border-bottom no-gutters">
-            <div class="col-lg-4 col-md-4">
+          <div class="row-0 p-1 mt-2  border-bottom no-gutters">
+            <div class="clearfix">
+            <div class="float-left mr-3">
               <img class="img-fluid" src="https://d.newsweek.com/en/full/1566074/canadian-dollars.webp?w=135&h=90&l=0&t=0&f=47030ca98878aa19f6731fcd27aba10a" alt="envelope">
             </div>
-            <div class="col-lg-8 col-md-8 pl-2 pr-5">
-              <a class="font-weight-bold fifthTitle-img" href="#">Teenager Praised After Turning in Bag That Contained Thousands of Dollars</a>
+            <div>
+              <a class="font-weight-bold fifthTitle-img" href="#">Teenager Praised After Turning in Bag That Contained Dollars</a>
             </div>
+          </div>
         </div>
-        <div class="row p-2 border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+        <div class="row-0 p-2 border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid" src="https://d.newsweek.com/en/full/1566022/gay-pride-lausanne-2006.webp?w=135&h=90&f=b82c232324c0a0c07f50b1b0ee0abc98" alt="people">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
-            <a class="font-weight-bold fifthTitle-img" href="#">Switzerland Advances Approval of Anti-Discrimination Laws for LGBTQ People</a>
+          <div>
+            <a class="font-weight-bold fifthTitle-img" href="#">Switzerland Advances Approval of Anti-Discrimination Laws for LGBTQ</a>
+          </div>
           </div>
       </div>
-      <div class="row p-2  no-gutters">
-        <div class="col-lg-4 col-md-4">
+      <div class="row-0 p-2 no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1566003/volunteers-transport-medical-supplies-wuhan.webp?w=135&h=90&f=fcfbdd99f1033c1738976977bf95b174" alt="Anti-Vaccine">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
-          <a class="font-weight-bold fifthTitle-img" href="#">'Excessive and Disorderly' Protective Clothing May Spread Coronavirus</a>
+        <div>
+          <a class="font-weight-bold fifthTitle-img" href="#">'Disorderly' Protective Clothing May Spread Coronavirus</a>
         </div>
     </div>
         </div>
           </div>
+        </div>
         </div>
       </div>
     </article>
@@ -806,29 +839,35 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="row mt-2 p-2  border-bottom no-gutters">
-            <div class="col-lg-4 col-md-4">
+          <div class="row-0 mt-2 p-2  border-bottom no-gutters">
+            <div class="clearfix">
+            <div class="float-left mr-3">
               <img class="img-fluid" src="https://d.newsweek.com/en/full/1555439/receiver.webp?w=135&h=90&f=32788caa88020a271dd7079986a6fc66" alt="gun">
             </div>
-            <div class="col-lg-8 col-md-8 pl-2 pr-5">
+            <div>
               <a class="font-weight-bold fifthTitle-img" href="#">Gun-Rights Supporters Notch Temporary Courtroom Win in Pennsylvania</a>
             </div>
+            </div>
         </div>
-        <div class="row p-2 border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+        <div class="row-0 p-2 border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid" src="https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.webp?w=135&h=90&f=bb4a98b8ceea60e1b53c7d1e72ea17e5" alt="tokyo-my-city-chizu-nakamoto">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
+          <div>
             <a class="font-weight-bold fifthTitle-img" href="#">Female Entrepreneur Active in Tokyo and Uganda</a>
           </div>
+          </div>
       </div>
-      <div class="row p-2  no-gutters">
-        <div class="col-lg-4 col-md-4">
+      <div class="row-0 p-2 no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1563039/nike-kobe-bryant.webp?w=135&h=90&f=312528c7106e32bf3bb06ef7c0506388" alt="nike-kobe-bryant">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
+        <div>
           <a class="font-weight-bold fifthTitle-img" href="#">Nike Denies Pulling Kobe Bryant-branded Products From Its Website</a>
         </div>
+    </div>
     </div>
         </div>
       </div>
@@ -854,30 +893,36 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="row mt-2 p-2  border-bottom no-gutters">
-            <div class="col-lg-4 col-md-4">
+          <div class="row-0 mt-2 p-2  border-bottom no-gutters">
+            <div class="clearfix">
+            <div class="float-left mr-3">
               <img class="img-fluid" src="https://d.newsweek.com/en/full/1566086/kirkwood-ski-resort.webp?w=135&h=90&f=c99c6306391cb030244c2b965c38cc3f" alt="mountains">
             </div>
-            <div class="col-lg-8 col-md-8 pl-2 pr-5">
+            <div>
               <a class="font-weight-bold fifthTitle-img" href="#">209-MPH Wind Gust Measured at California Peak Could Be a Record-Breaker</a>
             </div>
         </div>
-        <div class="row p-2 border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+          </div>
+        <div class="row-0 p-2 border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid" src="https://d.newsweek.com/en/full/1565934/trees-damaged-storm.webp?w=135&h=90&l=0&t=0&f=34cbd28355e30ab4abeb3f5b5caf65f7" alt="trees-damaged-storm">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
+          <div>
             <a class="font-weight-bold fifthTitle-img" href="#">Tornadoes and Severe 'Atypical' Weather Hit Virginia And Maryland</a>
           </div>
       </div>
-      <div class="row p-2  no-gutters">
-        <div class="col-lg-4 col-md-4">
+        </div>
+      <div class="row-0 p-2 no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1565777/gwion-art.webp?w=135&h=90&f=c8e2d80d07842763860178377854409a" alt="ancient art">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
+        <div>
           <a class="font-weight-bold fifthTitle-img" href="#">Ancient Rock Art May Tell Stories From Period of Dramatic Sea Level Rise</a>
         </div>
     </div>
+        </div>
         </div>
       </div>
         </div>
@@ -902,29 +947,35 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="row mt-2 p-2  border-bottom no-gutters">
-            <div class="col-lg-4 col-md-4">
+          <div class="row-0 mt-2 p-2 border-bottom no-gutters">
+            <div class="clearfix">
+            <div class="float-left mr-3">
               <img class="img-fluid" src="https://d.newsweek.com/en/full/1561328/power-tommy-spin-off.webp?w=135&h=90&f=05d4892595debf16849eb9c01036802b" alt="power-tommy-spin-off">
             </div>
-            <div class="col-lg-8 col-md-8 pl-2 pr-5">
+            <div>
               <a class="font-weight-bold fifthTitle-img" href="#">'Power Book V: Force' Tommy Egan Spin-Off Release Date, Cast, Trailer, Plot</a>
             </div>
+          </div>
         </div>
-        <div class="row p-2 border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+        <div class="row-0 p-2 border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid" src="https://d.newsweek.com/en/full/1566047/man-steel.webp?w=135&h=90&f=52253f4b37be533ce03833436d7b4e35" alt="superman">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
+          <div>
             <a class="font-weight-bold fifthTitle-img" href="#">Here Are the Eight DC Extended Universe Movies Ranked</a>
           </div>
+          </div>
       </div>
-      <div class="row p-2  no-gutters">
-        <div class="col-lg-4 col-md-4">
+      <div class="row-0 p-2 no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1566103/luke-perry.webp?w=135&h=90&f=5a4fca812b6cc49be6a8701630b8ab07" alt="luke-perry">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
+        <div>
           <a class="font-weight-bold fifthTitle-img" href="#">Luke Perry, Sid Haig, Cameron Boyce Were Excluded from Oscar In Memoriam</a>
         </div>
+    </div>
     </div>
         </div>
       </div>
@@ -950,29 +1001,35 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="row mt-2 p-2  border-bottom no-gutters">
-            <div class="col-lg-4 col-md-4">
+          <div class="row-0 mt-2 p-2  border-bottom no-gutters">
+            <div class="clearfix">
+            <div class="float-left mr-3">
               <img class="img-fluid" src="https://d.newsweek.com/en/full/1566050/xfl-st-louis-battlehawks.webp?w=135&h=90&f=dd36c83ef182afd7c59542fe3f57e1ee" alt="Troy">
             </div>
-            <div class="col-lg-8 col-md-8 pl-2 pr-5">
+            <div>
               <a class="font-weight-bold fifthTitle-img" href="#">Troy Aikman Says Which XFL Rules Would Translate Into the NFL</a>
             </div>
+            </div>
         </div>
-        <div class="row p-2 border-bottom no-gutters">
-          <div class="col-lg-4 col-md-4">
+        <div class="row-0 p-2 border-bottom no-gutters">
+          <div class="clearfix">
+          <div class="float-left mr-3">
             <img class="img-fluid" src="https://d.newsweek.com/en/full/1565991/tom-brady-dak-prescott.webp?w=135&h=90&f=3895c4c47dfe918e0b824fe9ebe7da1f" alt="tom-brady-dak-prescott">
           </div>
-          <div class="col-lg-8 col-md-8 pl-2 pr-5">
+          <div>
             <a class="font-weight-bold fifthTitle-img" href="#">Tom Brady to the Dallas Cowboys? Michael Irvin Says It's Highly Possible</a>
           </div>
+          </div>
       </div>
-      <div class="row p-2  no-gutters">
-        <div class="col-lg-4 col-md-4">
+      <div class="row-0 p-2 no-gutters">
+        <div class="clearfix">
+        <div class="float-left mr-3">
           <img class="img-fluid img-rounded" src="https://d.newsweek.com/en/full/1565990/duke-north-carolina.webp?w=135&h=90&f=8971f11da4c0007306e351660b56d4d5" alt="duke-north-carolina">
         </div>
-        <div class="col-lg-8 col-md-8 pl-2 pr-5">
-          <a class="font-weight-bold fifthTitle-img" href="#">Duke's Survival at UNC on Saturday Accentuates College Basketball's Madness</a>
+        <div>
+          <a class="font-weight-bold fifthTitle-img" href="#">Duke's Survival at UNC on Saturday Accentuates College Basketball's</a>
         </div>
+    </div>
     </div>
         </div>
       </div>
@@ -986,33 +1043,32 @@
       <a href="#" class="font-weight-light mb-3 fifthTitle">SUBSCRIBE</a>
      <div class="d-flex justify-content-center mt-4 last-article-bg p-3">
        <div>
-         <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec" alt="newsweek">
+         <img class="mx-md-0 mx-5" src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec" alt="newsweek">
        </div>
-       <div class="ml-4">
+       <div class="ml-md-4 mx-4">
          <h2 class="font-weight-bold story">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!</h2>
          <p class="mt-2">
           All Access + Weekly Delivery. <br>
           Choose A Membership That's Perfect for You!
         </p>
         <div class="mt-2">
-         <a href="#" class="btn subscribe font-weight-bold rounded-0 text-white">SUBSCRIBE <span>&gt;</span></a>
+         <a href="#" class="btn subscribe font-weight-bold rounded-0 text-white mx-md-0 mx-5">SUBSCRIBE <span>&gt;</span></a>
         </div>
        </div>
      </div>
      </div>
-     <div class="col-lg-4 col-md-12">
-      <div class="card last-card mt-5">
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-md-3">
-            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" class="card-img last-img" alt="mobile">
+     <div class="col-lg-4 col-md-12 mt-3 mt-lg-0">
+      <a href="#" class="font-weight-light mb-3 fifthTitle">NEWSLETTER</a>
+        <div class="row-0 no-gutters mt-4">
+          <div class="d-flex flex-md-row last-newsletter">
+          <div>
+            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" class="last-img" alt="mobile">
           </div>
-          <div class="col-lg-8 col-md-9">
-            <div class="card-body pl-2 ml-2">
-              <h5 class="card-title font-weight-bold story">The Starting 5</h5>
-              <p class="card-text">Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
-              <div class="mt-4">
-              <a href="#" class="card-link subscribe font-weight-bold rounded-0 text-white p-2">SIGN UP <span>&gt;</span></a>
-            </div>
+          <div id="newsSignUp" class="border-left-md-0 mb-1 pb-5 pb-md-0">
+              <h5 class=" font-weight-bold story ml-4 mt-4">The Starting 5</h5>
+              <p class="ml-4">Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+              <div class="mt-4 ml-5">
+              <a href="#" class="card-link subscribe font-weight-bold rounded-0 text-white p-2 last-img mx-md-0 mx-5">SIGN UP <span>&gt;</span></a>
             </div>
           </div>
         </div>
@@ -1021,13 +1077,13 @@
     </div>
     </article>
     <!-- Footer -->
-    <footer id="footer" class="mx-4">
+    <footer id="footer" class="mx-3 pb-4">
       <div class="row m-0 border-top border-bottom mt-5">
         <div class="col-lg-12 col-md-12">
           <div id="firstFooter" class="d-flex flex-lg-row mb-2  align-items-lg-end">
-          <img src="./images/second-logo.png" alt="logo">
+          <img src="./images/second-logo.png" class="footerImg" alt="logo">
           <p class="pt-lg-5 pt-1 text-muted">© 2020 NEWSWEEK</p>
-          <ul class="ml-lg-auto pt-1 pt-lg-0 d-flex">
+          <ul class="ml-md-auto pt-1 pt-lg-0 d-flex">
             <li class="pr-4 text-muted"><i class="fab fa-facebook-square fa-lg"></i></li>
             <li class="pr-4 text-muted"><i class="fab fa-twitter fa-lg"></i></li>
             <li class="pr-4 text-muted"><i class="fab fa-instagram fa-lg"></i></li>
@@ -1038,9 +1094,9 @@
         </div>
       </div>
       <div class="row m-0 mt-3">
-        <div class="col-lg-12 col-md-12">
-          <ul class="d-flex">
-            <li class="pr-2"><p>Editions:</p></li>
+        <div id="countryLink" class="col-lg-12 col-md-12">
+          <ul class="d-md-flex">
+            <li class="pr-2"><p class="text-muted font-weight-bold">Editions:</p></li>
             <li class="pr-2 border-right"><a class="text-muted" href="#">U.S. Edition</a></li>
             <li class="pr-2 pl-2 border-right"><a class="text-muted" href="#">日本</a></li>
             <li class="pr-2 pl-2 border-right"><a class="text-muted" href="#">Pakistan</a></li>
@@ -1049,7 +1105,7 @@
           </ul>
         </div>
       </div>
-      <div class="row m-0 mt-3">
+      <div class="row m-0 mt-2">
         <div id="secondFooter" class="col-lg-12 col-md-12">
           <ul class="d-lg-flex footer-link">
             <li class=""><a class="text-muted" href="#">About Us</a></li>

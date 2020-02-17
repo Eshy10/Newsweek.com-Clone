@@ -68,13 +68,6 @@ i.fa-search {
   top: 1.1rem;
 }
 
-/* #topStory {
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-} */
-
 #featuredStories,
 #thirdSection { height: 100%; }
 
@@ -106,6 +99,7 @@ i.fa-search {
   font-size: 16px;
 }
 
+
 .article-info {
   position: relative;
   bottom: 0.5rem;
@@ -118,13 +112,6 @@ i.fa-search {
 
 .img-span { bottom: 2rem; }
 
-.image {
-    width: 205px;
-}
-
-.image-big {
-    width: 200px;
-}
 
 #culture { background-color: #f4f5f7; }
 
@@ -191,6 +178,8 @@ i.fa-search {
   font-size: 13px;
 }
 
+
+
 .fifthTitle {
   color: #f72210;
   font-size: 22px;
@@ -216,6 +205,10 @@ i.fa-search {
 
 #latest { color: rgb(141, 139, 137); }
 
+.img-galaxy, .img-florida {
+    width: 35rem;
+}
+
 .subscribe { background-color: #f72210; }
 
 .story {
@@ -225,33 +218,26 @@ i.fa-search {
 
 .last-article-bg { background-color: #f4f5f6; }
 
-.last-img { height: 15.6rem; }
-
-.last-card {
-    max-width: 1000px; 
-    max-height:500px; 
-}
+.last-img {
+     width: 100%;
+     height: 260px;
+     
+    }
 
 .navbar-toggler {
     border: none;
     margin-bottom: .3rem;
 }
 
+#newsSignUp{
+    border: 1px solid rgb(245, 241, 241);
+    border-left: none;
+}
+
 #secondFooter li { 
     display: inline-block; 
-    margin: 6px 0;
-    padding-right: 4px;
-    margin-right: 3px;
-    border-right:1px solid rgb(236, 230, 230) ;
-    font-size: 16px;
-    line-height: 15px;
-  }
-
-  #secondFooter li { 
-    display: inline-block; 
-    margin: 6px 0;
-    padding-right: 5px;
-    margin-right: 5px;
+    padding-right: 6px;
+    margin-right: 6px;
     border-right:1px solid rgb(236, 230, 230) ;
     line-height: 15px;
   }
@@ -288,6 +274,10 @@ i.fa-search {
       margin-bottom: .7rem;
   }
 
+  .latestImg {
+    width: 15%;
+}
+
   .right-nav-link {
       padding-left: 3rem;
       padding-right: 1rem;
@@ -302,16 +292,12 @@ i.fa-search {
 
   .footer-link a { font-size: 14px;}
 
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .navbar-brand {
-    position: absolute;
-    left: 2%;
-    top: 20px;
-  }
+}
 
 
-  #mainNavbar li { padding-left: 2px; }
+@media (max-width: 768px) {
+  
+    #mainNavbar li { padding-left: 2px; }
 
   .opinion { max-width: 10%; }
 
@@ -326,11 +312,28 @@ i.fa-search {
     align-items: baseline;
   }
 
+  #secondFooter li { 
+    display: inline-block; 
+    margin: 6px 0;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right:1px solid rgb(236, 230, 230) ;
+    line-height: 15px;
+  }
+
   .footer-link a {font-size: 16px;}
+
+  .latestImg {width: 15%;}
+
+  .last-img {height: 10rem;}
+
+  #newsSignUp{border-top: 1px solid grey;}
+
 }
 
 @media (max-width: 576px) {
-  #mainNavbar li { padding-left: 3px; }
+
+ #mainNavbar li { padding-left: 3px; }
 
   .row {
     margin-left: 1rem;
@@ -344,6 +347,7 @@ i.fa-search {
     margin-left: 2%;
   }
 
+
   #firstStory {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -356,4 +360,83 @@ i.fa-search {
   .card { min-width: 100%; }
 
   .articleImg { height: 100%; }
+
+  #firstFooter {
+      flex-direction: column;
+      padding: .5rem;
+      margin-top: 1rem;
+    }
+
+    #firstFooter li { padding: .5rem;}
+
+  #countryLink li {
+      display: inline-block;
+      padding-right: 20px;
+      margin: 6px 0;
+      cursor: pointer;
+  }
+
+  #secondFooter {margin-top: 0;}
+
+  .cultureStories {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .moreStory {padding: 0;}
+
+  .img-galaxy {width: 500px;}
+
+  .newsletter {
+    width: 80%;
+    background-color: #F4F5F6;
+    margin: auto;
 }
+
+.last-article-bg {flex-direction: column;}
+
+
+.nav-right {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+}
+
+.nav-right a {font-size: 14px;}
+
+.right-nav1, .right-nav2 {padding-right: .5rem;}
+
+.buttonIcon {
+    top: 8px;
+    right: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.last-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-img {
+    width: 100%;
+    height: 10rem;
+}
+
+#newsSignUp {
+    border: 1px solid rgb(231, 226, 226);
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerImg {width: 40%;}
+
+ }
+
+ @media (max-width: 360px) {
+     .navbar-brand img {
+    width: 35%;
+     }
+ }
