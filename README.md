@@ -17,7 +17,7 @@ To clone <a href="https://www.newsweek.com/" target="blank">Newsweek.com</a> for
 
 
 # Live demo
-<a href="https://rawcdn.githack.com/Eshy10/Newsweek.com-Clone/bff8020d7804707bb3b86d17bba0b4284e446784/index.html">Link</a>
+<a href="https://raw.githack.com/Eshy10/Newsweek.com-Clone/master/index.html">Link</a>
 
 
 # Contributing
