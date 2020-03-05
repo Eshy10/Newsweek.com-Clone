@@ -294,7 +294,7 @@ i.fa-search {
 
   #mainNavbar li { padding-left: 2px; }
 
-  .opinion { max-width: 10%; }
+  .opinion { min-width: 10%; }
 
   .newsletter {
     width: 35%;
@@ -416,6 +416,10 @@ i.fa-search {
     height: 10rem;
   }
 
+  .latestImg { min-width: 30%; }
+
+  .opinion { min-width: 20%; }
+
   #newsSignUp {
     border: 1px solid rgb(231, 226, 226);
     border-top: none;
@@ -431,4 +435,6 @@ i.fa-search {
   .navbar-brand img {
     width: 35%;
   }
+
+  .latestImg { min-width: 40%; }
 }
