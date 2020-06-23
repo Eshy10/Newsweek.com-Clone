@@ -1,14 +1,11 @@
 # Newsweek.com-Clone
+>The project is about building a responsive website, cloning the Newsweek.com, and making the layouts align correctly on all screens.
 
 # Desktop Version
 ![Screenshot](https://user-images.githubusercontent.com/52670459/74545279-e1a2bd80-4f48-11ea-8a89-3e1993c27c59.png)
 
 # Mobile Version
 ![screenshotMobile](https://user-images.githubusercontent.com/52670459/74647178-81479200-517b-11ea-8309-ca49a4c41e58.png)
-
-# Purpose
-To clone <a href="https://www.newsweek.com/" target="blank">Newsweek.com</a> for a Bootstrap Project at Microverse
-
 
 # Tools 
 - HTML5
